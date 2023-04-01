@@ -4,13 +4,13 @@ USE lesson1;
 
 ![Error](database.png)
 
-# Выведите название, производителя и цену для товаров, количество которых превышает 2 (SQL - файл, скриншот, либо сам код)
+# Выведите название, производителя и цену для товаров, количество которых превышает 2
 
 SELECT Manufacturer, Prise
 
 FROM phone
 
-WHERE ProductCount >= 2;
+WHERE ProductCount > 2;
 
 ![Error](Query1.png)
 
